@@ -1,6 +1,3 @@
-$.getScript('js/sprites.js');
-$.getScript('js/landscape.js');
-
 var game = new Phaser.Game(300, 300, Phaser.AUTO, 'phaser', { preload: preload, create: create, update: update });
 var score = new Phaser.Game(50,300, Phaser.AUTO, 'score', { preload: preloadScore, create: createScore });
 var cursors;

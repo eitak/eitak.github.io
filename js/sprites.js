@@ -1,8 +1,5 @@
-$.getScript('js/model.js');
-
 var dudeSpeed = 50;
 var pokemonSpeed = 30;
-var sprites = {};
 var pokeSprites = {
     charmader:  [2,6,1,4,0,3,5,7],
     snorlax: [2,6,1,4,0,5,3,7]
